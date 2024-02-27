@@ -29,9 +29,9 @@ public class Login extends BaseTest{
 }
 	
 	@Test (priority=2)
-	public static void LoginTest() throws InterruptedException
+	public static void LoginTest() throws InterruptedException  
 	{
-		//Valid Login
+		//Valid Login  
 		Thread.sleep(7000);
 		driver.findElement(By.xpath(Loc.getProperty("email_field"))).sendKeys("funmilayoakinwale02@gmail.com");
 		Thread.sleep(5000);
